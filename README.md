@@ -90,7 +90,7 @@ RESTful API на Laravel для управления задачами с аут�
 
 1. **Клонирование репозитория**
    ```bash
-   git clone <repository-url>
+   git clone git@github.com:sobolko/test-backend-tasks.git
    cd backend
    ```
 
