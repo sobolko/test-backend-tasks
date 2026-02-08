@@ -99,16 +99,15 @@ RESTful API на Laravel для управления задачами с аут�
    cp .env.example .env
    ```
 
-3. **Запуск через Laravel Sail**
+3. **Установка зависимостей**
+   
    ```bash
-   # Первый запуск - установка зависимостей
-   docker run --rm \
-       -u "$(id -u):$(id -g)" \
-       -v "$(pwd):/var/www/html" \
-       -w /var/www/html \
-       laravelsail/php85-composer:latest \
-       composer install --ignore-platform-reqs
+   # Простая установка зависимостей
+   composer install
+   ```
 
+4. **Запуск Laravel Sail**
+   ```bash
    # Запуск приложения
    ./vendor/bin/sail up -d
    ```
