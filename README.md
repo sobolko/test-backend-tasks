@@ -144,11 +144,10 @@ composer run setup
 
 Приложение будет доступно по адресу: `http://localhost`
 
-**Создание пользователя:**
+**Пользователь по умолчанию:**
 ```bash
-curl -X POST http://localhost/api/register \
-  -H "Content-Type: application/json" \
-  -d '{"name":"Test User","email":"test@example.com","password":"password"}'
+test@example.com
+password
 ```
 
 **Авторизация:**
