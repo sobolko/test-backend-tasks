@@ -125,19 +125,6 @@ RESTful API на Laravel для управления задачами с аут�
    ./vendor/bin/sail artisan vendor:publish --provider="Spatie\Permission\PermissionServiceProvider"
    ```
 
-5. **Установка фронтенд зависимостей**
-   ```bash
-   ./vendor/bin/sail npm install
-   ./vendor/bin/sail npm run dev
-   ```
-
-### Быстрая настройка (альтернатива)
-```bash
-cp .env.example .env
-composer run setup
-./vendor/bin/sail up -d
-```
-
 ## Использование
 
 ### Тестирование API
